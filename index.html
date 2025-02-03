@@ -5,18 +5,17 @@
 
   <meta charset='UTF-8'>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="shortcut icon" href="img/website.ico">
+  <link rel="shortcut icon" href="img/favicon.png">
   <meta name="description" content="YourDescriptionHere">
   <meta name="author" content="YourStudentID">
 
-  <title>John Doe - Business Administration</title>
+  <title>권지현 - FrontEnd Developer</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
@@ -27,9 +26,9 @@
 <body id="page-top">
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">John Doe</span>
+      <span class="d-block d-lg-none">프론트엔드 개발자, 권지현</span>
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profilepicture.png" alt="Profile Picture">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="Profile Picture">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,16 +37,19 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          <a class="nav-link js-scroll-trigger" href="#certificates">Certificates</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
       </ul>
     </div>
@@ -58,26 +60,20 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
-        <h1 class="mb-3">John Doe
-        </h1>
-        <div class="subheading mb-5">Business Administration📚</div>
-        <p class="lead mb-4">Enter bio here<br><br>
-
-        Enter bio here<br><br>
-
-        Enter bio here
+        <h2 class="mb-3">권지현
+        </h2>
+        <div class="subheading mb-5">FrontEnd Developer 👩🏻‍💻</div>
+        <p class="lead mb-4">
+          현실에서 마주하는 문제를 해결하는 개발자 권지현입니다.<br><br>
         </p>
         <div class="social-icons">
-          <a target="_blank" id="socialicon-1" href="https://linkedin.com">
-            <i class="fab fa-linkedin-in"></i>
+          <a target="_blank" id="socialicon-1" href="https://velog.io/@kjh2868/posts">
+            <i class="fab fa-blogger-b"></i>
           </a>
-          <a target="_blank" id="socialicon-2" href="https://github.com">
+          <a target="_blank" id="socialicon-2" href="https://github.com/kwonjihyeon-dev">
             <i class="fab fa-github"></i>
           </a>
-          <a target="_blank" id="socialicon-3" href="https://twitter.com">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a target="_blank" id="socialicon-4" href="mailto:youremail@gmail.com">
+          <a target="_blank" id="socialicon-4" href="mailto:kjh2868@gmail.com">
             <i class="fa fa-envelope"></i>
           </a>
         </div>
@@ -88,108 +84,72 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
+        <h2 class="mb-5 size">Experience</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 experience">
-          <div class="resume-content">
-            <h3 class="mb-0">Developer</h3>
-            <div class="subheading mb-3"><a target="_blank" href="https://yourcompany.com">Company</a></div>
+          <div class="w-100 resume-content">
+            <div class="mb-3 d-flex justify-content-between align-items-center">
+              <h3 class="mb-0 subheading"><a href="https://www.peterpanz.com/" target="_blank">(주) 두꺼비세상</a></h3>
+              <div class="resume-date text-md-right">
+                <span class="text-primary">2023.10 ~</span>
+              </div>
+            </div>
+            <ul class="m-0 pl-4 d-flex flex-column" style="gap: 4px">
+              <li class="mb-2">
+                <div class="d-flex justify-content-between mb-2">자사 레거시 프로젝트 마이그레이션 <span>2024-10 ~</span></div>
+                <ul class="m-0 pl-4 d-flex flex-column" style="gap: 4px">
+                  <li>멀티레포, vueJs, php 기반의 자사 레거시 프로젝트에서 모노레포, nextjs 기반으로 마이그레이션 작업 진행</li>
+                  <li>UI 컴포넌트 제작 및 Storybook으로 UI 테스트 진행</li>
+                </ul>
+              </li>
+              <li class="mb-2">
+                <div class="d-flex justify-content-between mb-2"><p class="text-decoration-underline m-0 highlight">피터팬의 좋은 방 구하기 Webview 개발</p> <span>2024-10 ~</span></div>
+                <ul class="m-0 pl-4 d-flex flex-column" style="gap: 4px">
+                  <li>멀티레포, vueJs, php 기반의 자사 레거시 프로젝트에서 모노레포, nextjs 기반으로 마이그레이션 작업 진행</li>
+                  <li>UI 컴포넌트 제작 및 Storybook으로 UI 테스트 진행</li>
+                </ul>
+              </li>
+
+              <li class="mb-2">
+                <div class="d-flex justify-content-between mb-2"><p class="text-decoration-underline m-0 highlight">피터팬의 좋은 방 구하기 메인 지도 화면 개편</p> <span>2024-10 ~</span></div>
+                <ul class="m-0 pl-4 d-flex flex-column" style="gap: 4px">
+                  <li>멀티레포, vueJs, php 기반의 자사 레거시 프로젝트에서 모노레포, nextjs 기반으로 마이그레이션 작업 진행</li>
+                  <li>UI 컴포넌트 제작 및 Storybook으로 UI 테스트 진행</li>
+                </ul>
+              </li>
+            </ul>
             <p>
-              • Developed websites for company X<br> 
-              • Speaker at hack-a-thons<br>
-              • Experience with HTML, CSS, Javascript, Photoshop<br>
+              • 직거래 매물 광고 플로우 개선으로 개인 유저의 매물 광고 비율이 약 60% 이상 증가했습니다. 또한 사진 등과 같은 파일 업로드를 위해 API 요청과 S3 저장 방식 대신 브라우저 IndexedDB를 이용해 불필요한 자원 낭비를 제한했습니다.<br/>
+              • 브라우저 성능 개선과 DOM 조작 최적화를 위해 지도가 변경될 때마다 모든 마커를 렌더링하는 방식에서 Set, Map을 이용해 새로운 정보를 가진 마커만 렌더링하도록 변경했습니다.<br/>
+              • 네이버, 애플, 카카오 등 소셜 계정을 이용한 간편 로그인 기능을 신규 개발해 사용자 진입 장벽을 편의성을 높였습니다.<br/>
+              • 아파트 매물과 관련된 지도, 매물 상세 화면, 아파트 단지 화면의 전반적인 개선 작업에 참여했습니다.<br/>
             </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">March 2019 - Present</span>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 experience">
-          <div class="resume-content">
-            <h3 class="mb-0">Cashier</h3>
-            <div class="subheading mb-3"><a target="_blank" href="https://wholefoods.com">Whole Foods</a></div>
+          <div class="w-100 resume-content">
+            <div class=" mb-3 d-flex justify-content-between align-items-center">
+              <h3 class="mb-0 subheading"><a href="https://www.officener.com/" target="_blank">(주) 리버블</a></h3>
+              <div class="resume-date text-md-right">
+                <span class="text-primary">2022.07 ~ 2023.10</span>
+              </div>
+            </div>
             <p>
               • Responsible for checking out customers<br>
               • etc etc<br>
             </p>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">March 2017 - March 2019</span>
-          </div>
         </div>
-
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 experience">
-          <div class="resume-content">
-            <h3 class="mb-0">Teaching Assistant</h3>
-            <div class="subheading mb-3"><a target="_blank" href="https://ucr.edu">University of California Riverside</a></div>
-            <p>
-            • Ran sessions to help students learn how to code<br>
-            • Reviewed and graded student coding projects<br>
-            • Created educational content to help promote student education<br>
-            • TA'd for over 400 students each academic quarter<br>
-
-          </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">January 2011 - January 2016</span>
-          </div>
-        </div>
-
-
-
       </div>
 
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Education</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 education">
-          <div class="resume-content">
-            <h3 class="mb-0">UC Riverside</h3>
-            <div class="subheading mb-3">Masters of Business Administration</div>
-            <div>MBA in International Business</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2018 - December 2019</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 education">
-          <div class="resume-content">
-            <h3 class="mb-0">University of California Riverside</h3>
-            <div class="subheading mb-3">Postgraduate Certificate in Business Management</div>
-            <div>Project Management</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">June 2017</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 education">
-          <div class="resume-content">
-            <h3 class="mb-0">University of California Riverside</h3>
-            <div class="subheading mb-3">Business Administration</div>
-            <div>Information Systems</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2012 - May 2016</span>
-          </div>
-        </div>
-
-      </div>
     </section>
 
     <hr class="m-0">
 
     <section class="resume-section p-1 p-lg-5 d-flex align-items-center" id="portfolio">
       <div class="w-100">
-        <h2 class="mb-5">Portfolio</h1>
+        <h2 class="mb-5 size">Portfolio</h1>
         <center>
             <img src="img/image2.jpeg" width="500px">
         </center>
@@ -197,9 +157,69 @@
     </section>
 
     <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="certificates">
+      <div class="w-100">
+        <h2 class="mb-5 size">Certificates</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 education">
+          <div class="resume-content">
+            <div class="subheading">정보처리기사 필기</div>
+            <div>한국산업인력공단</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2024.06</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 education">
+          <div class="resume-content">
+            <div class="subheading">웹디자인기능사</div>
+            <div>한국산업인력공단</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2021.12</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5 size">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 education">
+          <div class="resume-content">
+            <h3 class="mb-2">코드캠프</h3>
+            <p class="mb-1">Javascript 기반 프론트엔드 과정 수료</p>
+            <p class="mb-1">백엔드 기초 지식, Git, GCP 학습</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2022.01 - 2022.04</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 education">
+          <div class="resume-content">
+            <h3 class="mb-2">호원대학교</h3>
+            <p class="mb-1">항공서비스학과</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2012.03 - 2016.02</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
     <center>&copy; <script type="text/javascript">
   document.write(new Date().getFullYear());
-  </script> John Doe</center><br>
+  </script> 권지현</center>
+  <br>
   </div>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>

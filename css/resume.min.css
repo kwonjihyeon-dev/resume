@@ -130,6 +130,7 @@ p.lead {
   line-height: 3.5rem;
   margin-right: 1rem;
 }
+
 .social-icons a:last-child {
   margin-right: 0;
 }
@@ -139,6 +140,27 @@ p.lead {
 .dev-icons {
   font-size: 3rem;
 }
+
+.social-icon {
+  margin-bottom: 8px;
+}
+
+.social-icon a {
+  display: inline-block;
+  color: black;
+  margin-left: 4px;
+}
+
+.social-icon a:hover, .social-icon a:active, .social-icon a:focus {
+  text-decoration: underline;
+  color: black;
+}
+
+.social-icon a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
 .dev-icons .list-inline-item i:hover {
   color: #83b9ff;
 }
@@ -236,6 +258,9 @@ section.resume-section .resume-item .resume-date {
 .text-primary {
   color: #448aff !important;
 }
+.text-secondary {
+  color: #6c757d !important;
+}
 a {
   color: #777675;
 }
@@ -268,8 +293,13 @@ a:hover {
 }
 
 .highlight {
-  color: #2b63ff;
+  color: #3c80f5;
   font-weight: 600;
+}
+
+.highlight:hover {
+  color: #2b63ff;
+  text-decoration: underline !important;
 }
 
 @keyframes legs {
